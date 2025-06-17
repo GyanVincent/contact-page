@@ -61,20 +61,15 @@ body {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 30px;
+      margin-top: 20px;
     }
-
-    .contact-section1{
-        margin-top: 70px;
-    }
-
     .contact-card {
       background: #fff;
       border-radius: 12px;
-      /*
+      /*comment this to remove the contact form shadow
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
       overflow: hidden;
-      */
+       */
     }
     .contact-card .map {
       min-height: 400px;
@@ -105,13 +100,13 @@ body {
 
     .contact-container {
       text-align: center;
-
+      margin-top: 70px;
     }
     h1 {
       font-weight: bold;
       font-size: 3rem;
     }
-    .p {
+    #animated-text {
       font-size: 1.2rem;
       color: #555;
       transition: opacity 0.5s ease;
@@ -141,5 +136,10 @@ body {
     }
     #map{
       border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .text-wrap{
+      height: 30px;
       overflow: hidden;
     }
